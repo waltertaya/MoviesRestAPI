@@ -75,16 +75,6 @@ WSGI_APPLICATION = 'movies.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'moviesapi_uh1m',
-#         'USER': 'moviesapi_uh1m_user',
-#         'PASSWORD': 'm2QbudgO7cXCGK96n5ldIsG25YT4ALVx',
-#         'HOST': 'dpg-cp7et0u3e1ms73aj5ej0-a.oregon-postgres.render.com',  # Using the external URL for connecting
-#         'PORT': '5432',
-#     }
-# }
 
 import environ
 import os
